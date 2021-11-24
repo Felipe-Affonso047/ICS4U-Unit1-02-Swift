@@ -18,7 +18,7 @@ let input = readLine()
 // Try statement.
 if let mass = Float(input!) {
   let energy = mass * LIGHTSPEED * LIGHTSPEED
-  print("\nThe amount of energy the object would produce is: \(energy)x10^16 joules")
+  print("\nThe amount of energy the object would produce is: \(energy)x10¹⁶ joules")
 } else {
   print("Error, please insert a number.")
 }
